@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+
+        <div class="box">
+            <form class="search-form" action="">
+            <input id="search" type="text" placeholder="Enter a City..........."/>
+            <button id="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="city-name">
+            <h1 id="city">Indore</h1>
+            <p class="dat">Sun Jan 07 2024</p>
+        </div>
+         <div class="temp-info" id="wea">
+            <span id="decs">Clouds</span>
+            <div id="image">
+                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="">
+           
+            </div>
+         </div>
+         <div id="temp">30°C</div>
+         <div class="additional-info">
+            <div id="wind-info">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                <h4 id="wind-speed">3.09 km/h</h4>
+                <p>Wind</p>
+            </div>
+            </div>
+            <div id="humidity-info">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                <h4 id="humidity">56%</h4>
+                <p>Humidity</p>
+            </div>
+            </div>
+            <div id="visibility-info">
+                <i class="fa-regular fa-eye"></i>
+                <div>
+                <h4 id="visibility">10km</h4>
+                <p>Visibility</p>
+            </div>
+            </div>
+         </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
